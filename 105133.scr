@@ -1,0 +1,155 @@
+# Library script
+# 
+# Exported from C:/Users/Jonah Shader/Documents/GitHub/VESC_board/105133-0011.lbr at 6/20/2019 12:48 PM
+# 
+# EAGLE Version 9.1.3 Copyright (c) 1988-2018 Autodesk, Inc.
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  90 Modules;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Layer  97 Info;
+Layer  98 Guide;
+Description '';
+
+Edit '105133-0011.sym';
+Layer 94;
+Change Style continuous;
+Wire  0.254 (5.08 10.16) (-5.08 10.16) (-5.08 -10.16) (5.08 -10.16) \
+      (5.08 10.16);
+Layer 95;
+Change Size 2.541159375;
+Change Ratio 8;
+Change Align bottom left;
+Change Font proportional;
+Text '>NAME' R0 (-5.08748125 10.6837);
+Layer 96;
+Change Size 2.540890625;
+Change Align bottom left;
+Text '>VALUE' R0 (-5.09701875 -12.7349);
+Pin 'VBUS' pas none middle R0 both 0 (-10.16 7.62);
+Pin 'D-' pas none middle R0 both 0 (-10.16 5.08);
+Pin 'D+' pas none middle R0 both 0 (-10.16 2.54);
+Pin 'ID' pas none middle R0 both 0 (-10.16 0);
+Pin 'GND' pas none middle R0 both 0 (-10.16 -2.54);
+Pin 'SHIELD' pas none middle R0 both 0 (-10.16 -7.62);
+
+Edit 'MOLEX_105133-0011.pac';
+Description 'Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R';
+Layer 46;
+Wire  0 (-3.15 -0.25) (-2.45 -0.25);
+Wire  0 (-3.15 0.25) (-2.45 0.25);
+Wire  0 (-3.15 -0.25) -180 (-3.15 0.25);
+Wire  0 (-2.45 0.25) -180 (-2.45 -0.25);
+Wire  0 (2.45 -0.25) (3.15 -0.25);
+Wire  0 (2.45 0.25) (3.15 0.25);
+Wire  0 (2.45 -0.25) -180 (2.45 0.25);
+Wire  0 (3.15 0.25) -180 (3.15 -0.25);
+Layer 25;
+Change Size 0.812925;
+Change Align bottom left;
+Text '>NAME' R0 (-4.40571875 3.17276875);
+Layer 27;
+Change Size 0.81328125;
+Change Align bottom left;
+Text '>VALUE' R0 (-4.406959375 -3.86216875);
+Layer 21;
+Circle 0.2 (-1.403 2.762) (-1.303 2.762);
+Layer 46;
+Wire  0 (-0.55 -1.9) (0.55 -1.9);
+Wire  0 (-0.55 -2.4) (0.55 -2.4);
+Wire  0 (-0.55 -1.9) +180 (-0.55 -2.4);
+Wire  0 (0.55 -2.4) +180 (0.55 -1.9);
+Layer 51;
+Wire  0.127 (4 -2.225) (-4 -2.225);
+Wire  0.127 (4 -2.225) (4 0.875) (2.025 0.875) (2.025 2.225) \
+      (-2.025 2.225);
+Wire  0.127 (-2.025 0.875) (-2.025 2.225);
+Wire  0.127 (-4 0.875) (-2.025 0.875);
+Wire  0.127 (-4 -2.225) (-4 0.875);
+Layer 39;
+Wire  0.05 (-4.25 2.475) (4.25 2.475) (4.25 -2.95) (-4.25 -2.95) \
+      (-4.25 2.475);
+Layer 21;
+Wire  0.127 (2.025 2.225) (2.025 0.875) (4 0.875) (4 0.467);
+Wire  0.127 (4 -0.477) (4 -2.225) (1.35 -2.225);
+Wire  0.127 (-1.35 -2.225) (-4 -2.225) (-4 -0.477);
+Wire  0.127 (-4 0.467) (-4 0.875) (-2.025 0.875) (-2.025 2.225) \
+      (2.025 2.225);
+Layer 51;
+Circle 0.2 (-1.403 2.762) (-1.303 2.762);
+Layer 1;
+Smd '1' 1.5 0.45 -0 R90 (-1.3 -0.25);
+Layer 1;
+Smd '2' 1.5 0.45 -0 R90 (-0.65 -0.25);
+Layer 1;
+Smd '3' 1.5 0.45 -0 R90 (0 -0.25);
+Layer 1;
+Smd '4' 1.5 0.45 -0 R90 (0.65 -0.25);
+Layer 1;
+Smd '5' 1.5 0.45 -0 R90 (1.3 -0.25);
+Change Drill 0.5;Pad 'S1' long 1.1 R0 (-2.8 0);
+Change Drill 0.5;Pad 'S2' long 1.1 R0 (2.8 0);
+Change Drill 0.5;Pad 'S3' long 1.1 R0 (0 -2.15);
+
+Edit '105133-0011.dev';
+Prefix 'J';
+Description 'Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R';
+Value off;
+Add 105133-0011 'G$1' next 0 (0 0);
+Package 'MOLEX_105133-0011' '';
+Technology '';
+Technology '';
+Attribute DESCRIPTION ' Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R ' constant;
+Attribute PACKAGE 'None' constant;
+Attribute MF 'Molex' constant;
+Attribute MP '1051330011' constant;
+Attribute AVAILABILITY 'Unavailable' constant;
+Attribute PRICE 'None' constant;
+Connect  'G$1.D+' '3'  'G$1.D-' '2'  'G$1.GND' '5'  'G$1.ID' '4'  'G$1.SHIELD' 'S1 S2 S3' \
+         'G$1.VBUS' '1';
+Grid inch;
+Edit ;
