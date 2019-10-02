@@ -1,0 +1,120 @@
+# Library script
+# 
+# Exported from C:/Users/admin/Documents/EAGLE/libraries/8MHz_Crystal.lbr at 7/24/2019 5:48 PM
+# 
+# EAGLE Version 9.4.1 Copyright (c) 1988-2019 Autodesk, Inc.
+# 
+Set Wire_Bend 2;
+# Grid changed to 'mm' to avoid loss of precision!
+Grid mm;
+Layer   1 Top;
+Layer  16 Bottom;
+Layer  17 Pads;
+Layer  18 Vias;
+Layer  19 Unrouted;
+Layer  20 Dimension;
+Layer  21 tPlace;
+Layer  22 bPlace;
+Layer  23 tOrigins;
+Layer  24 bOrigins;
+Layer  25 tNames;
+Layer  26 bNames;
+Layer  27 tValues;
+Layer  28 bValues;
+Layer  29 tStop;
+Layer  30 bStop;
+Layer  31 tCream;
+Layer  32 bCream;
+Layer  33 tFinish;
+Layer  34 bFinish;
+Layer  35 tGlue;
+Layer  36 bGlue;
+Layer  37 tTest;
+Layer  38 bTest;
+Layer  39 tKeepout;
+Layer  40 bKeepout;
+Layer  41 tRestrict;
+Layer  42 bRestrict;
+Layer  43 vRestrict;
+Layer  44 Drills;
+Layer  45 Holes;
+Layer  46 Milling;
+Layer  47 Measures;
+Layer  48 Document;
+Layer  49 Reference;
+Layer  51 tDocu;
+Layer  52 bDocu;
+Layer  90 Modules;
+Layer  91 Nets;
+Layer  92 Busses;
+Layer  93 Pins;
+Layer  94 Symbols;
+Layer  95 Names;
+Layer  96 Values;
+Layer  97 Info;
+Layer  98 Guide;
+Description '';
+
+Edit 'ABLS2-4.096MHZ-D4Y-T.sym';
+Layer 94;
+Change Style continuous;
+Wire  0.254 (-1.27 2.54) (1.27 2.54) (1.27 -2.54) (-1.27 -2.54) \
+      (-1.27 2.54);
+Wire  0.254 (-2.54 1.27) (-2.54 -1.27);
+Wire  0.254 (2.54 1.27) (2.54 -1.27);
+Layer 95;
+Change Size 1.27553125;
+Change Ratio 8;
+Change Align bottom left;
+Change Font proportional;
+Text '>NAME' R0 (-2.551059375 3.826590625);
+Layer 96;
+Change Size 1.272;
+Change Align bottom left;
+Text '>VALUE' R0 (-2.544 -5.088);
+Pin '1' pas none middle R0 off 0 (-7.62 0);
+Pin '2' pas none middle R180 off 0 (7.62 0);
+
+Edit 'XTAL_ABLS2-4.096MHZ-D4Y-T.pac';
+Description '';
+Layer 21;
+Wire  0.127 (-5.7 1.4) (-5.7 2.35) (5.7 2.35) (5.7 1.4);
+Wire  0.127 (5.7 -1.4) (5.7 -2.35) (-5.7 -2.35) (-5.7 -1.4);
+Layer 51;
+Wire  0.127 (-5.7 2.35) (-5.7 -2.35) (5.7 -2.35) (5.7 2.35) \
+      (-5.7 2.35);
+Layer 39;
+Wire  0.05 (-7.8 2.6) (-7.8 -2.6) (7.8 -2.6) (7.8 2.6) \
+      (-7.8 2.6);
+Layer 25;
+Change Size 1.2741;
+Change Align bottom left;
+Text '>NAME' R0 (-3.822290625 3.185240625);
+Layer 27;
+Change Size 1.27583125;
+Change Align bottom left;
+Text '>VALUE' R0 (-3.8275 -4.46541875);
+Layer 21;
+Circle 0.254 (-6.858 1.9558) (-6.561790625 1.9558);
+Layer 1;
+Smd '1' 5.6 2.1 -0 R0 (-4.75 0);
+Layer 1;
+Smd '2' 5.6 2.1 -0 R0 (4.75 0);
+
+Edit 'ABLS2-4.096MHZ-D4Y-T.dev';
+Prefix 'Y';
+Description 'Crystal 24MHz Ø¢Â±30ppm (Tol) Ø¢Â±30ppm (Stability) 18pF FUND 40Ohm 2-Pin HC-49/US SMD T/R';
+Value off;
+Add ABLS2-4.096MHZ-D4Y-T 'G$1' next 0 (0 0);
+Package 'XTAL_ABLS2-4.096MHZ-D4Y-T' '';
+Technology '';
+Technology '';
+Attribute MF 'Abracon' constant;
+Attribute PACKAGE 'HC49/US Abracon' constant;
+Attribute DESCRIPTION ' Crystal 4.096MHz ±30ppm _Tol_ ±30ppm _Stability_ 18pF FUND 180Ohm 2-Pin HC-49/US SMD T/R ' constant;
+Attribute DIGI-KEY_PART_NUMBER '535-9858-1-ND' constant;
+Attribute DIGI-KEY_PURCHASE_URL 'https://www.digikey.com/product-detail/en/abracon-llc/ABLS2-4.096MHZ-D4Y-T/535-9858-1-ND/2001481?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol' constant;
+Attribute MP 'ABLS2-4.096MHZ-D4Y-T' constant;
+Connect  'G$1.1' '1'  'G$1.2' '2';
+Grid inch;
+Edit ;
