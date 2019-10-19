@@ -12896,6 +12896,20 @@ be as close as possible</text>
 <label x="154.94" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="208.28" y1="43.18" x2="208.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="40.64" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="40.64" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="43.18" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="40.64" x2="215.9" y2="40.64" width="0.1524" layer="91"/>
+<junction x="215.9" y="40.64"/>
+<wire x1="215.9" y1="40.64" x2="215.9" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
