@@ -295,6 +295,8 @@ UsedLibraryUrn="urn:adsk.eagle:library:162"
 UsedLibraryUrn="urn:adsk.eagle:library:163"
 UsedLibraryUrn="urn:adsk.eagle:library:164"
 UsedLibraryUrn="urn:adsk.eagle:library:165"
+UsedLibrary="C:/Users/admin/Documents/EAGLE/libraries/105133-0011.lbr"
+UsedLibrary="C:/Users/admin/Documents/EAGLE/libraries/STM32F401RET6.lbr"
 UsedLibrary="C:/Users/admin/Documents/EAGLE/libraries/Soldering Workshop Library.lbr"
 UsedLibrary="C:/Users/admin/Documents/EAGLE/libraries/VESC_SHIT.lbr"
 
@@ -341,7 +343,6 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: -16.256 -14.986 168.656 103.886"
 Sheet="1"
 
 [Win_2]
