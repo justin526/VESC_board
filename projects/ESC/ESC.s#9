@@ -8577,13 +8577,13 @@ be as close as possible</text>
 <attribute name="NAME" x="106.68" y="103.124" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="106.68" y="100.076" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="88.9" y="106.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.376" y="106.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="90.424" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R10" gate="G$1" x="81.28" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="79.756" y="106.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="82.804" y="106.68" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R11" gate="A" x="88.9" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="87.376" y="119.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="90.424" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R11" gate="A" x="81.28" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="79.756" y="119.38" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="82.804" y="119.38" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="C15" gate="A" x="99.06" y="129.54" smashed="yes" rot="R90">
 <attribute name="VALUE" x="102.0572" y="129.4638" size="1.27" layer="96" ratio="10" rot="SR90"/>
@@ -8614,6 +8614,11 @@ be as close as possible</text>
 <wire x1="38.1" y1="147.32" x2="35.56" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="VDD" pin="VDD"/>
 <wire x1="35.56" y1="147.32" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R11" gate="A" pin="1"/>
+<wire x1="81.28" y1="124.46" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
+<label x="81.28" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8662,6 +8667,27 @@ be as close as possible</text>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="C15" gate="A" pin="1"/>
 <wire x1="99.06" y1="127" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="U2" gate="A" pin="DTC"/>
+<wire x1="111.76" y1="101.6" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R11" gate="A" pin="2"/>
+<wire x1="81.28" y1="111.76" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
