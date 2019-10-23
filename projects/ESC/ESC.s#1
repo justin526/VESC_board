@@ -5650,6 +5650,8 @@ LED</description>
 <part name="U13" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="GND17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="GND18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="GND19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6763,6 +6765,12 @@ be as close as possible</text>
 <attribute name="NAME" x="173.0756" y="108.1786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="172.4406" y="105.6386" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
+<instance part="GND18" gate="GND" x="25.4" y="71.12" smashed="yes">
+<attribute name="VALUE" x="23.495" y="67.945" size="1.778" layer="96"/>
+</instance>
+<instance part="GND19" gate="GND" x="220.98" y="81.28" smashed="yes">
+<attribute name="VALUE" x="219.075" y="78.105" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6900,6 +6908,61 @@ be as close as possible</text>
 <pinref part="U$1" gate="G$1" pin="SHC"/>
 <wire x1="55.88" y1="81.28" x2="45.72" y2="81.28" width="0.1524" layer="91"/>
 <label x="48.26" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLA_1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SLA"/>
+<wire x1="55.88" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<label x="48.26" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLB_1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SLB"/>
+<wire x1="55.88" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="73.66" x2="50.8" y2="73.66" width="0.1524" layer="91"/>
+<label x="48.26" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLC_1" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SLC"/>
+<wire x1="55.88" y1="71.12" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="71.12" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
+<label x="48.26" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="GND18" gate="GND" pin="GND"/>
+<wire x1="38.1" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<junction x="25.4" y="73.66"/>
+<wire x1="30.48" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="73.66" x2="30.48" y2="71.12" width="0.1524" layer="91"/>
+<junction x="30.48" y="73.66"/>
+<wire x1="30.48" y1="71.12" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$2" pin="AGND"/>
+<wire x1="195.58" y1="99.06" x2="220.98" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="GND" pin="GND"/>
+<wire x1="220.98" y1="99.06" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$2" pin="BGND"/>
+<wire x1="220.98" y1="96.52" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="93.98" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="91.44" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
+<junction x="220.98" y="96.52"/>
+<pinref part="U$1" gate="G$2" pin="GND"/>
+<wire x1="195.58" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<junction x="220.98" y="93.98"/>
+<pinref part="U$1" gate="G$2" pin="PGND"/>
+<wire x1="195.58" y1="91.44" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
+<junction x="220.98" y="91.44"/>
 </segment>
 </net>
 </nets>
@@ -7286,6 +7349,12 @@ be as close as possible</text>
 <junction x="91.44" y="-7.62"/>
 <wire x1="73.66" y1="-40.64" x2="73.66" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="73.66" y="-30.48"/>
+<junction x="-55.88" y="-2.54"/>
+<wire x1="-45.72" y1="-2.54" x2="-55.88" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-2.54" x2="27.94" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="17.78" y="-2.54"/>
+<wire x1="91.44" y1="-5.08" x2="101.6" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="91.44" y="-5.08"/>
 </segment>
 </net>
 </nets>
