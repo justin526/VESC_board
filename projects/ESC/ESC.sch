@@ -4075,14 +4075,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="+12V" urn="urn:adsk.eagle:symbol:26931/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-0.635" x2="0" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="-1.27" y2="-0.635" width="0.254" layer="94"/>
-<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="+12V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
@@ -4115,19 +4107,6 @@ Warning: This is the KIT version of this package. This package has a smaller dia
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="+12V" urn="urn:adsk.eagle:component:26959/1" prefix="P+" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="+12V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -8941,15 +8920,12 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="U5" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
 <part name="U6" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
 <part name="U7" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="U8" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
 <part name="U9" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
 <part name="U10" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="U11" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
 <part name="U12" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
 <part name="U13" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="J2" library="VESC_SHIT" deviceset="1755529" device=""/>
 <part name="SV2" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE05-1" device="" package3d_urn="urn:adsk.eagle:package:8190/1"/>
 <part name="U$2" library="VESC_SHIT" deviceset="DRV8320H" device=""/>
@@ -11494,32 +11470,10 @@ be as close as possible</text>
 <attribute name="NAME" x="68.9356" y="21.8186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="68.3006" y="19.2786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="P+2" gate="1" x="0" y="35.56" smashed="yes">
-<attribute name="VALUE" x="-2.54" y="30.48" size="1.778" layer="96" rot="R90"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="+12V" class="0">
-<segment>
-<pinref part="P+2" gate="1" pin="+12V"/>
-<wire x1="0" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="33.02" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="VIN"/>
-<wire x1="-45.72" y1="15.24" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="0" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
-<junction x="0" y="33.02"/>
-<wire x1="33.02" y1="33.02" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U5" gate="A" pin="VIN"/>
-<wire x1="33.02" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-<junction x="33.02" y="33.02"/>
-<wire x1="99.06" y1="33.02" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U7" gate="A" pin="VIN"/>
-<wire x1="99.06" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GHA_2" class="0">
 <segment>
 <pinref part="U6" gate="A" pin="GH"/>
@@ -11791,6 +11745,23 @@ be as close as possible</text>
 <label x="0" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="VM_2" class="0">
+<segment>
+<wire x1="33.02" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="33.02" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U6" gate="A" pin="VIN"/>
+<wire x1="-45.72" y1="15.24" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U5" gate="A" pin="VIN"/>
+<wire x1="33.02" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<junction x="33.02" y="33.02"/>
+<wire x1="99.06" y1="33.02" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U7" gate="A" pin="VIN"/>
+<wire x1="99.06" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
+<label x="33.02" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -11814,32 +11785,10 @@ be as close as possible</text>
 <attribute name="NAME" x="68.9356" y="21.8186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="68.3006" y="19.2786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="P+3" gate="1" x="0" y="35.56" smashed="yes">
-<attribute name="VALUE" x="-2.54" y="30.48" size="1.778" layer="96" rot="R90"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="+12V" class="0">
-<segment>
-<pinref part="P+3" gate="1" pin="+12V"/>
-<wire x1="0" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="33.02" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U9" gate="A" pin="VIN"/>
-<wire x1="-45.72" y1="15.24" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="0" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
-<junction x="0" y="33.02"/>
-<wire x1="33.02" y1="33.02" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U8" gate="A" pin="VIN"/>
-<wire x1="33.02" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-<junction x="33.02" y="33.02"/>
-<wire x1="99.06" y1="33.02" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U10" gate="A" pin="VIN"/>
-<wire x1="99.06" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GHA_3" class="0">
 <segment>
 <pinref part="U9" gate="A" pin="GH"/>
@@ -12111,6 +12060,23 @@ be as close as possible</text>
 <label x="73.66" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="VM_3" class="0">
+<segment>
+<wire x1="33.02" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="33.02" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U9" gate="A" pin="VIN"/>
+<wire x1="-45.72" y1="15.24" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U8" gate="A" pin="VIN"/>
+<wire x1="33.02" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<junction x="33.02" y="33.02"/>
+<wire x1="99.06" y1="33.02" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U10" gate="A" pin="VIN"/>
+<wire x1="99.06" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
+<label x="33.02" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -12134,32 +12100,10 @@ be as close as possible</text>
 <attribute name="NAME" x="68.9356" y="21.8186" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="68.3006" y="19.2786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="P+4" gate="1" x="0" y="35.56" smashed="yes">
-<attribute name="VALUE" x="-2.54" y="30.48" size="1.778" layer="96" rot="R90"/>
-</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="+12V" class="0">
-<segment>
-<pinref part="P+4" gate="1" pin="+12V"/>
-<wire x1="0" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="33.02" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U12" gate="A" pin="VIN"/>
-<wire x1="-45.72" y1="15.24" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="0" y1="33.02" x2="33.02" y2="33.02" width="0.1524" layer="91"/>
-<junction x="0" y="33.02"/>
-<wire x1="33.02" y1="33.02" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U11" gate="A" pin="VIN"/>
-<wire x1="33.02" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
-<junction x="33.02" y="33.02"/>
-<wire x1="99.06" y1="33.02" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U13" gate="A" pin="VIN"/>
-<wire x1="99.06" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GHA_4" class="0">
 <segment>
 <pinref part="U12" gate="A" pin="GH"/>
@@ -12429,6 +12373,23 @@ be as close as possible</text>
 <wire x1="-73.66" y1="-25.4" x2="-73.66" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-73.66" y="-25.4"/>
 <label x="-71.12" y="-40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VM_4" class="0">
+<segment>
+<wire x1="33.02" y1="33.02" x2="-45.72" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="33.02" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U12" gate="A" pin="VIN"/>
+<wire x1="-45.72" y1="15.24" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="33.02" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U11" gate="A" pin="VIN"/>
+<wire x1="33.02" y1="15.24" x2="17.78" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="33.02" x2="99.06" y2="33.02" width="0.1524" layer="91"/>
+<junction x="33.02" y="33.02"/>
+<wire x1="99.06" y1="33.02" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U13" gate="A" pin="VIN"/>
+<wire x1="99.06" y1="12.7" x2="91.44" y2="12.7" width="0.1524" layer="91"/>
+<label x="33.02" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
