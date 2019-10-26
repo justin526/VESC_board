@@ -6811,6 +6811,27 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="34"/>
 <wire x1="-113.1697" y1="-170.619990625" x2="-120.23" y2="-190.5" width="0" layer="19" extent="1-1"/>
 </signal>
+<signal name="G2_H1">
+<contactref element="U1" pad="59"/>
+</signal>
+<signal name="G2_H2">
+<contactref element="U1" pad="58"/>
+</signal>
+<signal name="G2_H3">
+<contactref element="U1" pad="57"/>
+</signal>
+<signal name="G2_L3">
+<contactref element="U1" pad="54"/>
+</signal>
+<signal name="G2_L2">
+<contactref element="U1" pad="55"/>
+</signal>
+<signal name="G2_L1">
+<contactref element="U1" pad="56"/>
+</signal>
+<signal name="EN_GATE2">
+<contactref element="U1" pad="52"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>

@@ -6184,6 +6184,8 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="31"/>
 <contactref element="STATUS_LED" pad="1"/>
 <contactref element="U$2" pad="5"/>
+<contactref element="HEADERS" pad="14"/>
+<wire x1="-120.5103" y1="-140.72" x2="-109.1311" y2="-136.220009375" width="0" layer="19" extent="1-1"/>
 <wire x1="-87.2363" y1="-128.27" x2="-109.1311" y2="-136.220009375" width="0" layer="19" extent="1-1"/>
 <wire x1="-82.6897" y1="-120.5499875" x2="-87.2363" y2="-128.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-82.6897" y1="-120.0499875" x2="-82.6897" y2="-120.5499875" width="0" layer="19" extent="1-1"/>
@@ -6274,6 +6276,8 @@ design rules under a new name.</description>
 <contactref element="U1" pad="19"/>
 <contactref element="U3" pad="5"/>
 <contactref element="U$2" pad="1"/>
+<contactref element="HEADERS" pad="16"/>
+<wire x1="-120.5103" y1="-141.72" x2="-109.1311" y2="-134.2200125" width="0" layer="19" extent="1-1"/>
 <wire x1="-88.05" y1="-124.46" x2="-109.1311" y2="-134.2200125" width="0" layer="19" extent="1-1"/>
 <wire x1="-24.2062" y1="29.845" x2="-88.05" y2="-124.46" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.39" y1="50.8" x2="-24.2062" y2="29.845" width="0" layer="19" extent="1-1"/>
@@ -6327,6 +6331,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="SWDIO">
 <contactref element="U1" pad="46"/>
+<contactref element="HEADERS" pad="13"/>
+<wire x1="-120.5103" y1="-140.22" x2="56.4261" y2="17.99" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="L3">
 <contactref element="U1" pad="34"/>
@@ -6345,6 +6351,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="SWCLK">
 <contactref element="U1" pad="49"/>
+<contactref element="HEADERS" pad="15"/>
+<wire x1="-120.5103" y1="-141.22" x2="54.55" y2="20.8661" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="AIN">
 <contactref element="U1" pad="10"/>
@@ -6377,8 +6385,10 @@ design rules under a new name.</description>
 <contactref element="R3" pad="1"/>
 <contactref element="C2" pad="2"/>
 <contactref element="U1" pad="7"/>
+<contactref element="HEADERS" pad="12"/>
 <wire x1="-34.71" y1="30.48" x2="45.1739" y2="15.99" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.95" y1="50.8" x2="-34.71" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="-120.5103" y1="-139.720003125" x2="-34.71" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="EN_GATE">
 <contactref element="U1" pad="51"/>

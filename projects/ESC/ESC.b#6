@@ -6144,6 +6144,9 @@ design rules under a new name.</description>
 <element name="U$2" library="VESC_SHIT" package="DCA56_6P35X3P61-M" value="BS_CONN" x="-105.41" y="-140.97" smashed="yes">
 <attribute name="NAME" x="-108.6866" y="-141.605" size="1.27" layer="25" ratio="6" rot="SR0"/>
 </element>
+<element name="HEADERS" library="VESC_SHIT" package="DCA56_6P35X3P61" value="16PIN_CONN" x="-116.84" y="-140.97" smashed="yes">
+<attribute name="NAME" x="-120.1166" y="-141.605" size="1.27" layer="25" ratio="6" rot="SR0"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
