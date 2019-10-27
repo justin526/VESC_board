@@ -12114,102 +12114,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="-99.06" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="GHB_1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="GH"/>
-<wire x1="53.34" y1="15.24" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
-<label x="45.72" y="15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GHC_1" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="GH"/>
-<wire x1="-27.94" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
-<label x="-27.94" y="15.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GLA_1" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="GL"/>
 <wire x1="-55.88" y1="2.54" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="2.54" x2="-50.8" y2="2.54" width="0.1524" layer="91"/>
 <label x="-53.34" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GLB_1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="GL"/>
-<wire x1="88.9" y1="2.54" x2="96.52" y2="2.54" width="0.1524" layer="91"/>
-<label x="91.44" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GLC_1" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="GL"/>
-<wire x1="15.24" y1="2.54" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
-<label x="17.78" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PHASE_C1" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="VSW_2"/>
-<pinref part="U4" gate="A" pin="VSW_3"/>
-<wire x1="-20.32" y1="10.16" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="VSW_4"/>
-<wire x1="-20.32" y1="7.62" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-20.32" y="7.62"/>
-<pinref part="U4" gate="A" pin="VSW_5"/>
-<wire x1="-20.32" y1="5.08" x2="-20.32" y2="2.54" width="0.1524" layer="91"/>
-<junction x="-20.32" y="5.08"/>
-<pinref part="U4" gate="A" pin="VSW_6"/>
-<wire x1="-20.32" y1="2.54" x2="-20.32" y2="0" width="0.1524" layer="91"/>
-<junction x="-20.32" y="2.54"/>
-<pinref part="U4" gate="A" pin="VSW_7"/>
-<wire x1="-20.32" y1="0" x2="-20.32" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-20.32" y="0"/>
-<pinref part="U4" gate="A" pin="VSW_8"/>
-<wire x1="-20.32" y1="-2.54" x2="-20.32" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-2.54"/>
-<pinref part="U4" gate="A" pin="VSW_9"/>
-<wire x1="-20.32" y1="-5.08" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-5.08"/>
-<pinref part="U4" gate="A" pin="VSW"/>
-<wire x1="-20.32" y1="-7.62" x2="-20.32" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-7.62"/>
-<wire x1="-20.32" y1="-10.16" x2="-35.56" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="-20.32" y="-10.16"/>
-<label x="-35.56" y="-10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="PHASE_B1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="VSW_2"/>
-<pinref part="U2" gate="A" pin="VSW_3"/>
-<wire x1="53.34" y1="10.16" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="VSW_4"/>
-<wire x1="53.34" y1="5.08" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
-<junction x="53.34" y="7.62"/>
-<pinref part="U2" gate="A" pin="VSW_5"/>
-<wire x1="53.34" y1="5.08" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
-<junction x="53.34" y="5.08"/>
-<pinref part="U2" gate="A" pin="VSW_6"/>
-<wire x1="53.34" y1="2.54" x2="53.34" y2="0" width="0.1524" layer="91"/>
-<junction x="53.34" y="2.54"/>
-<pinref part="U2" gate="A" pin="VSW_7"/>
-<wire x1="53.34" y1="0" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="53.34" y="0"/>
-<pinref part="U2" gate="A" pin="VSW_8"/>
-<wire x1="53.34" y1="-2.54" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="53.34" y="-2.54"/>
-<pinref part="U2" gate="A" pin="VSW_9"/>
-<wire x1="53.34" y1="-5.08" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
-<junction x="53.34" y="-5.08"/>
-<pinref part="U2" gate="A" pin="VSW"/>
-<wire x1="53.34" y1="-7.62" x2="53.34" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="53.34" y="-7.62"/>
-<wire x1="53.34" y1="-10.16" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="53.34" y="-10.16"/>
-<label x="38.1" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PHASE_A1" class="0">
@@ -12253,20 +12163,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="-99.06" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SHB_1" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="SH"/>
-<wire x1="53.34" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
-<label x="45.72" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SHC_1" class="0">
-<segment>
-<pinref part="U4" gate="A" pin="SH"/>
-<wire x1="-20.32" y1="12.7" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
-<label x="-27.94" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="SLA_1" class="0">
 <segment>
 <pinref part="U3" gate="A" pin="PGND"/>
@@ -12298,12 +12194,79 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="-55.88" y1="-7.62" x2="-55.88" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-55.88" y="-5.08"/>
 <wire x1="-55.88" y1="-5.08" x2="-55.88" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-55.88" y="-2.54"/>
-<wire x1="-45.72" y1="-2.54" x2="-55.88" y2="-2.54" width="0.1524" layer="91"/>
 <label x="-73.66" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SLC_1" class="0">
+<net name="VM_1" class="0">
+<segment>
+<wire x1="-45.72" y1="33.02" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U3" gate="A" pin="VIN"/>
+<wire x1="-45.72" y1="15.24" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-45.72" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VIN"/>
+<wire x1="22.86" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="15.24" x2="88.9" y2="15.24" width="0.1524" layer="91"/>
+<label x="33.02" y="33.02" size="1.778" layer="95"/>
+<wire x1="104.14" y1="33.02" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="VIN"/>
+<wire x1="22.86" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="15.24" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
+<junction x="22.86" y="33.02"/>
+</segment>
+</net>
+<net name="GHC_1B" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="GH"/>
+<wire x1="-27.94" y1="15.24" x2="-20.32" y2="15.24" width="0.1524" layer="91"/>
+<label x="-27.94" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SHC_1B" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="SH"/>
+<wire x1="-20.32" y1="12.7" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
+<label x="-27.94" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PHASE_C1B" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="VSW_2"/>
+<pinref part="U4" gate="A" pin="VSW_3"/>
+<wire x1="-20.32" y1="10.16" x2="-20.32" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="VSW_4"/>
+<wire x1="-20.32" y1="7.62" x2="-20.32" y2="5.08" width="0.1524" layer="91"/>
+<junction x="-20.32" y="7.62"/>
+<pinref part="U4" gate="A" pin="VSW_5"/>
+<wire x1="-20.32" y1="5.08" x2="-20.32" y2="2.54" width="0.1524" layer="91"/>
+<junction x="-20.32" y="5.08"/>
+<pinref part="U4" gate="A" pin="VSW_6"/>
+<wire x1="-20.32" y1="2.54" x2="-20.32" y2="0" width="0.1524" layer="91"/>
+<junction x="-20.32" y="2.54"/>
+<pinref part="U4" gate="A" pin="VSW_7"/>
+<wire x1="-20.32" y1="0" x2="-20.32" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-20.32" y="0"/>
+<pinref part="U4" gate="A" pin="VSW_8"/>
+<wire x1="-20.32" y1="-2.54" x2="-20.32" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-2.54"/>
+<pinref part="U4" gate="A" pin="VSW_9"/>
+<wire x1="-20.32" y1="-5.08" x2="-20.32" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-5.08"/>
+<pinref part="U4" gate="A" pin="VSW"/>
+<wire x1="-20.32" y1="-7.62" x2="-20.32" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-7.62"/>
+<wire x1="-20.32" y1="-10.16" x2="-35.56" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="-20.32" y="-10.16"/>
+<label x="-35.56" y="-10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GLC_1B" class="0">
+<segment>
+<pinref part="U4" gate="A" pin="GL"/>
+<wire x1="15.24" y1="2.54" x2="22.86" y2="2.54" width="0.1524" layer="91"/>
+<label x="17.78" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLC_1B" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="PGND_2"/>
 <pinref part="U4" gate="A" pin="PGND_3"/>
@@ -12332,14 +12295,57 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U4" gate="A" pin="PGND"/>
 <wire x1="15.24" y1="-5.08" x2="15.24" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="15.24" y="-5.08"/>
-<wire x1="15.24" y1="-2.54" x2="25.4" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="15.24" y="-2.54"/>
 <wire x1="-2.54" y1="-27.94" x2="-2.54" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="-2.54" y="-27.94"/>
 <label x="-2.54" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SLB_1" class="0">
+<net name="PHASE_C1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="VSW_2"/>
+<pinref part="U2" gate="A" pin="VSW_3"/>
+<wire x1="53.34" y1="10.16" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VSW_4"/>
+<wire x1="53.34" y1="5.08" x2="53.34" y2="7.62" width="0.1524" layer="91"/>
+<junction x="53.34" y="7.62"/>
+<pinref part="U2" gate="A" pin="VSW_5"/>
+<wire x1="53.34" y1="5.08" x2="53.34" y2="2.54" width="0.1524" layer="91"/>
+<junction x="53.34" y="5.08"/>
+<pinref part="U2" gate="A" pin="VSW_6"/>
+<wire x1="53.34" y1="2.54" x2="53.34" y2="0" width="0.1524" layer="91"/>
+<junction x="53.34" y="2.54"/>
+<pinref part="U2" gate="A" pin="VSW_7"/>
+<wire x1="53.34" y1="0" x2="53.34" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="53.34" y="0"/>
+<pinref part="U2" gate="A" pin="VSW_8"/>
+<wire x1="53.34" y1="-2.54" x2="53.34" y2="-5.08" width="0.1524" layer="91"/>
+<junction x="53.34" y="-2.54"/>
+<pinref part="U2" gate="A" pin="VSW_9"/>
+<wire x1="53.34" y1="-5.08" x2="53.34" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="53.34" y="-5.08"/>
+<pinref part="U2" gate="A" pin="VSW"/>
+<wire x1="53.34" y1="-7.62" x2="53.34" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="53.34" y="-7.62"/>
+<label x="38.1" y="-10.16" size="1.778" layer="95"/>
+<wire x1="53.34" y1="-10.16" x2="38.1" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="53.34" y="-10.16"/>
+</segment>
+</net>
+<net name="GHC_1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="GH"/>
+<wire x1="53.34" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
+<label x="43.18" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SHC_1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="SH"/>
+<wire x1="53.34" y1="12.7" x2="40.64" y2="12.7" width="0.1524" layer="91"/>
+<label x="43.18" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SLC_1" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="PGND_4"/>
 <pinref part="U2" gate="A" pin="PGND_3"/>
@@ -12351,8 +12357,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="71.12" y1="-25.4" x2="88.9" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="-25.4" x2="88.9" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PGND"/>
-<wire x1="88.9" y1="-2.54" x2="99.06" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="88.9" y="-2.54"/>
 <pinref part="U2" gate="A" pin="PGND_9"/>
 <wire x1="88.9" y1="-5.08" x2="88.9" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="88.9" y="-5.08"/>
@@ -12375,21 +12379,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="71.12" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VM_1" class="0">
+<net name="GLC_1" class="0">
 <segment>
-<wire x1="-45.72" y1="33.02" x2="-45.72" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U3" gate="A" pin="VIN"/>
-<wire x1="-45.72" y1="15.24" x2="-55.88" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-45.72" y1="33.02" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="U2" gate="A" pin="VIN"/>
-<wire x1="22.86" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="15.24" x2="88.9" y2="15.24" width="0.1524" layer="91"/>
-<label x="33.02" y="33.02" size="1.778" layer="95"/>
-<wire x1="104.14" y1="33.02" x2="104.14" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="U4" gate="A" pin="VIN"/>
-<wire x1="22.86" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="15.24" x2="22.86" y2="33.02" width="0.1524" layer="91"/>
-<junction x="22.86" y="33.02"/>
+<pinref part="U2" gate="A" pin="GL"/>
+<wire x1="88.9" y1="2.54" x2="96.52" y2="2.54" width="0.1524" layer="91"/>
+<label x="91.44" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
