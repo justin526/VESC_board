@@ -10934,6 +10934,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="66.04" y1="5.08" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <junction x="66.04" y="25.4"/>
 <pinref part="GND8" gate="1" pin="GND"/>
+<junction x="78.74" y="25.4"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
@@ -11140,6 +11141,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="205.74" y1="83.82" x2="205.74" y2="104.14" width="0.1524" layer="91"/>
 <junction x="205.74" y="104.14"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+<junction x="218.44" y="104.14"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -11342,13 +11344,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="58.42" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INHC_3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="INHC"/>
-<wire x1="71.12" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<label x="58.42" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="DVDD_2" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="2"/>
@@ -11379,6 +11374,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="66.04" y1="60.96" x2="66.04" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
 <label x="58.42" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="INHC_2" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="INHC"/>
+<wire x1="71.12" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
+<label x="58.42" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -11520,6 +11522,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="76.2" y1="-2.54" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
 <junction x="76.2" y="17.78"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+<junction x="88.9" y="17.78"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
@@ -11795,22 +11798,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <busses>
 </busses>
 <nets>
-<net name="N$37" class="0">
+<net name="INHA_4" class="0">
 <segment>
 <pinref part="U$4" gate="G$1" pin="INHA"/>
-<wire x1="-58.42" y1="17.78" x2="-68.58" y2="17.78" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="INHB"/>
-<wire x1="-58.42" y1="15.24" x2="-68.58" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="INHC"/>
-<wire x1="-58.42" y1="12.7" x2="-68.58" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="17.78" x2="-71.12" y2="17.78" width="0.1524" layer="91"/>
+<label x="-71.12" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -11837,6 +11829,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="76.2" y1="-2.54" x2="76.2" y2="17.78" width="0.1524" layer="91"/>
 <junction x="76.2" y="17.78"/>
 <pinref part="GND20" gate="1" pin="GND"/>
+<junction x="88.9" y="17.78"/>
 </segment>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
@@ -11972,25 +11965,18 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="-96.52" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="INHA_4" class="0">
-<segment>
-<wire x1="-58.42" y1="17.78" x2="-68.58" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="17.78" x2="-68.58" y2="17.78" width="0.1524" layer="91"/>
-<label x="-71.12" y="17.78" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="INHB_4" class="0">
 <segment>
-<wire x1="-58.42" y1="15.24" x2="-66.04" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="15.24" x2="-66.04" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="-71.12" y1="15.24" x2="-58.42" y2="15.24" width="0.1524" layer="91"/>
 <label x="-71.12" y="15.24" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="INHB"/>
 </segment>
 </net>
 <net name="INHC_4" class="0">
 <segment>
-<wire x1="-58.42" y1="12.7" x2="-68.58" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="-71.12" y1="12.7" x2="-68.58" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="12.7" x2="-71.12" y2="12.7" width="0.1524" layer="91"/>
 <label x="-71.12" y="12.7" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="INHC"/>
 </segment>
 </net>
 <net name="INL_4" class="0">
@@ -12264,7 +12250,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="17.78" y="2.54" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SLC_1B" class="0">
+<net name="SLB_1" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="PGND_2"/>
 <pinref part="U4" gate="A" pin="PGND_3"/>
