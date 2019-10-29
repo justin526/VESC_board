@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.1">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4365,6 +4365,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="FAULT_1">
 <contactref element="U1" pad="38"/>
+<contactref element="U$2" pad="17"/>
+<wire x1="32.54" y1="21.884" x2="71.1" y2="13.4239" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="EN_1">
 <contactref element="U1" pad="37"/>
@@ -4462,6 +4464,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="FAULT_2">
 <contactref element="U1" pad="44"/>
+<contactref element="U$1" pad="17"/>
+<wire x1="27.853" y1="13.7896" x2="68.1" y2="13.4239" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="INL_3">
 <contactref element="U1" pad="50"/>
@@ -4501,6 +4505,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="FAULT_3">
 <contactref element="U1" pad="55"/>
+<contactref element="U$3" pad="17"/>
+<wire x1="64.2239" y1="18.3" x2="89.38" y2="60.92" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="INHA_4">
 <contactref element="U1" pad="59"/>
@@ -4527,6 +4533,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="FAULT_4">
 <contactref element="U1" pad="28"/>
+<contactref element="U$4" pad="17"/>
+<wire x1="75.4761" y1="17.3" x2="141.518" y2="74.902" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="OSC_IN">
 <contactref element="U1" pad="5"/>
