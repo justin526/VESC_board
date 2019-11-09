@@ -1,6 +1,6 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/admin/VESC_board/projects/ESC/ESC.brd
+Job           : C:/Users/Jonah Shader/Documents/GitHub/VESC_board/projects/ESC/ESC.brd
 
 Start at      : 11:38:12 (10/26/2019)
 End at        : 19:00:00 (12/31/1969)
@@ -22,4 +22,4 @@ Routed            :         0
 Vias              :         0
 Resolution        :    11.7 %
 
-Final             : 
+Final             : 11.7% finished. Polygons may have fallen apart.
