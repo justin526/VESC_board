@@ -4030,11 +4030,7 @@ design rules under a new name.</description>
 <wire x1="23.662" y1="11.148" x2="23.4355" y2="11.3745" width="0.3048" layer="1"/>
 <via x="10.922" y="13.462" extent="1-16" drill="0.3302"/>
 <wire x1="12.382" y1="14.24" x2="12.382" y2="13.74" width="0.2032" layer="1"/>
-<wire x1="12.382" y1="17.74" x2="12.3458" y2="17.7038" width="0.2032" layer="1"/>
-<wire x1="12.3458" y1="17.7038" x2="11.8618" y2="17.7038" width="0.2032" layer="1"/>
-<wire x1="11.8618" y1="17.7038" x2="11.8841" y2="17.6815" width="0.2032" layer="1"/>
-<wire x1="11.8841" y1="17.6815" x2="12.382" y2="17.6815" width="0.2032" layer="1"/>
-<wire x1="12.382" y1="17.6815" x2="12.382" y2="17.24" width="0.2032" layer="1"/>
+<wire x1="12.382" y1="17.74" x2="12.382" y2="17.24" width="0.2032" layer="1"/>
 </signal>
 <signal name="SLC_1">
 <contactref element="U$2" pad="16"/>
