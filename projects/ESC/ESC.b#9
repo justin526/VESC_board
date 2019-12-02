@@ -4017,6 +4017,10 @@ design rules under a new name.</description>
 <contactref element="C6" pad="1"/>
 <contactref element="U14" pad="P$16"/>
 <contactref element="R6" pad="2"/>
+<contactref element="U$5" pad="P$G"/>
+<contactref element="U$5" pad="P$H"/>
+<contactref element="U$5" pad="P$V"/>
+<contactref element="U$5" pad="P$U"/>
 <wire x1="99.822" y1="12.026" x2="89.662" y2="24.892" width="0" layer="19" extent="16-16"/>
 <wire x1="67.818" y1="19.558" x2="89.662" y2="24.892" width="0" layer="19" extent="16-16"/>
 <wire x1="64.456" y1="18.7579" x2="66.3321" y2="20.634" width="0" layer="19" extent="16-16"/>
@@ -4029,6 +4033,10 @@ design rules under a new name.</description>
 <wire x1="6.416" y1="-3.048" x2="55.33" y2="15.074" width="0" layer="19" extent="1-16"/>
 <wire x1="5.93" y1="-16.764" x2="6.416" y2="-3.048" width="0" layer="19" extent="1-1"/>
 <wire x1="0.928" y1="-16.764" x2="5.93" y2="-16.764" width="0" layer="19" extent="1-1"/>
+<wire x1="16.764" y1="-52.832" x2="5.93" y2="-16.764" width="0" layer="19" extent="1-1"/>
+<wire x1="16.764" y1="-55.372" x2="16.764" y2="-52.832" width="0" layer="19" extent="1-1"/>
+<wire x1="19.304" y1="-55.372" x2="16.764" y2="-55.372" width="0" layer="19" extent="1-1"/>
+<wire x1="19.304" y1="-52.832" x2="16.764" y2="-52.832" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NRST">
 <contactref element="SV2" pad="1"/>
@@ -5703,16 +5711,6 @@ design rules under a new name.</description>
 <wire x1="6.604" y1="-55.372" x2="4.064" y2="-55.372" width="0" layer="19" extent="1-1"/>
 <wire x1="9.144" y1="-55.372" x2="6.604" y2="-55.372" width="0" layer="19" extent="1-1"/>
 <wire x1="11.684" y1="-55.372" x2="9.144" y2="-55.372" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$13">
-<contactref element="U$5" pad="P$G"/>
-<contactref element="U$5" pad="P$H"/>
-<wire x1="19.304" y1="-55.372" x2="16.764" y2="-55.372" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$14">
-<contactref element="U$5" pad="P$V"/>
-<contactref element="U$5" pad="P$U"/>
-<wire x1="19.304" y1="-52.832" x2="16.764" y2="-52.832" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
