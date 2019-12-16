@@ -9678,23 +9678,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="33.02" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U$5" gate="G$2" pin="P$S"/>
-<pinref part="U$5" gate="G$2" pin="P$R"/>
-<wire x1="149.86" y1="127" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$2" pin="P$Q"/>
-<wire x1="149.86" y1="132.08" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
-<junction x="149.86" y="132.08"/>
-<pinref part="U$5" gate="G$2" pin="P$P"/>
-<wire x1="149.86" y1="137.16" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
-<junction x="149.86" y="137.16"/>
-<pinref part="U$5" gate="G$2" pin="P$O"/>
-<wire x1="149.86" y1="142.24" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
-<junction x="149.86" y="142.24"/>
-</segment>
-</net>
-<net name="N$12" class="0">
+<net name="+12V" class="0">
 <segment>
 <pinref part="U$5" gate="G$2" pin="P$A"/>
 <pinref part="U$5" gate="G$2" pin="P$B"/>
@@ -9708,6 +9692,26 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U$5" gate="G$2" pin="P$E"/>
 <wire x1="116.84" y1="132.08" x2="116.84" y2="127" width="0.1524" layer="91"/>
 <junction x="116.84" y="132.08"/>
+<pinref part="P+1" gate="1" pin="+12V"/>
+<wire x1="116.84" y1="147.32" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
+<junction x="116.84" y="147.32"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$2" pin="P$S"/>
+<pinref part="U$5" gate="G$2" pin="P$R"/>
+<wire x1="149.86" y1="127" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$2" pin="P$Q"/>
+<wire x1="149.86" y1="132.08" x2="149.86" y2="137.16" width="0.1524" layer="91"/>
+<junction x="149.86" y="132.08"/>
+<pinref part="U$5" gate="G$2" pin="P$P"/>
+<wire x1="149.86" y1="137.16" x2="149.86" y2="142.24" width="0.1524" layer="91"/>
+<junction x="149.86" y="137.16"/>
+<pinref part="U$5" gate="G$2" pin="P$O"/>
+<wire x1="149.86" y1="142.24" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
+<junction x="149.86" y="142.24"/>
+<pinref part="P+5" gate="1" pin="+12V"/>
+<wire x1="149.86" y1="157.48" x2="149.86" y2="147.32" width="0.1524" layer="91"/>
+<junction x="149.86" y="147.32"/>
 </segment>
 </net>
 </nets>
