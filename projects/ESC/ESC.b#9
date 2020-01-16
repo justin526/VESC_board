@@ -3993,8 +3993,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="65.278" y1="23.964" x2="65.024" y2="24.218" width="0.4064" layer="16"/>
 <wire x1="65.278" y1="23.964" x2="65.278" y2="22.694" width="0.4064" layer="16"/>
 <wire x1="62.992" y1="24.218" x2="61.722" y2="25.488" width="0.4064" layer="16"/>
-<wire x1="61.722" y1="25.488" x2="60.452" y2="25.488" width="0.4064" layer="16"/>
-<wire x1="60.452" y1="25.488" x2="59.524" y2="25.488" width="0.4064" layer="16"/>
+<wire x1="61.722" y1="25.488" x2="59.524" y2="25.488" width="0.4064" layer="16"/>
 <wire x1="68.834" y1="22.694" x2="66.548" y2="22.694" width="0.4064" layer="16"/>
 <wire x1="68.834" y1="22.694" x2="69.088" y2="22.948" width="0.4064" layer="16"/>
 <wire x1="73.854" y1="14.1859" x2="73.854" y2="15.046" width="0.2032" layer="1"/>
@@ -4064,11 +4063,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="54.61" y1="18.034" x2="53.34" y2="18.034" width="0.6096" layer="16"/>
 <wire x1="53.34" y1="18.034" x2="52.07" y2="18.034" width="0.6096" layer="16"/>
 <wire x1="53.34" y1="18.034" x2="53.34" y2="20.574" width="0.6096" layer="16"/>
-<wire x1="60.452" y1="25.488" x2="60.452" y2="26.162" width="0.4064" layer="16"/>
-<wire x1="60.452" y1="26.162" x2="63.246" y2="28.956" width="0.4064" layer="16"/>
-<wire x1="63.246" y1="28.956" x2="63.246" y2="31.75" width="0.4064" layer="16"/>
-<wire x1="63.246" y1="31.75" x2="64.77" y2="33.274" width="0.4064" layer="16"/>
-<wire x1="64.77" y1="33.274" x2="69.85" y2="33.274" width="0.4064" layer="16"/>
+<wire x1="72.854" y1="25.4381" x2="69.85" y2="33.274" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NRST">
 <contactref element="SV2" pad="1"/>
