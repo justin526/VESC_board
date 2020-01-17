@@ -12592,7 +12592,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C17" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VM_1" class="0">
+<net name="+12V" class="0">
 <segment>
 <pinref part="U$2" gate="G$2" pin="VM"/>
 <pinref part="C15" gate="G$1" pin="1"/>
@@ -13188,7 +13188,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C22" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VM_2" class="0">
+<net name="+12V" class="0">
 <segment>
 <pinref part="U$3" gate="G$2" pin="VM"/>
 <pinref part="C21" gate="G$1" pin="1"/>
@@ -13785,7 +13785,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C26" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VM_3" class="0">
+<net name="+12V" class="0">
 <segment>
 <pinref part="U$4" gate="G$2" pin="VM"/>
 <pinref part="C25" gate="G$1" pin="1"/>
@@ -14382,7 +14382,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="C36" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VM_4" class="0">
+<net name="+12V" class="0">
 <segment>
 <pinref part="U$7" gate="G$2" pin="VM"/>
 <pinref part="C29" gate="G$1" pin="1"/>

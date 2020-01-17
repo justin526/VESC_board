@@ -11672,13 +11672,6 @@ In this library the device names are the same as the pin names of the symbols, t
 <junction x="104.14" y="114.3"/>
 </segment>
 </net>
-<net name="S" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="S"/>
-<wire x1="129.54" y1="76.2" x2="139.7" y2="76.2" width="0.1524" layer="91"/>
-<label x="137.16" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
 </nets>
 </sheet>
 <sheet>
