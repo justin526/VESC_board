@@ -158,7 +158,7 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="VESC_SHIT">
+<library name="VESC_SHIT" urn="urn:adsk.eagle:library:11793053">
 <packages>
 <package name="CONN_1755529">
 <pad name="1" x="0" y="0" drill="1.397" diameter="1.905"/>
@@ -4003,28 +4003,6 @@
 <vertex x="-2.2994" y="-2.6149"/>
 <vertex x="-1.9946" y="-2.6149"/>
 </polygon>
-<wire x1="-1.2954" y1="-1.3208" x2="-1.4986" y2="-1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="-1.4986" y1="-1.3208" x2="-1.2954" y2="-1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="-1.2954" y1="0" x2="-1.4986" y2="0" width="0" layer="18" curve="-180"/>
-<wire x1="-1.4986" y1="0" x2="-1.2954" y2="0" width="0" layer="18" curve="-180"/>
-<wire x1="-1.2954" y1="1.3208" x2="-1.4986" y2="1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="-1.4986" y1="1.3208" x2="-1.2954" y2="1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="0.1016" y1="-2.4638" x2="-0.1016" y2="-2.4638" width="0" layer="18" curve="-180"/>
-<wire x1="-0.1016" y1="-2.4638" x2="0.1016" y2="-2.4638" width="0" layer="18" curve="-180"/>
-<wire x1="0.1016" y1="-1.3208" x2="-0.1016" y2="-1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="-0.1016" y1="-1.3208" x2="0.1016" y2="-1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="0.1016" y1="0" x2="-0.1016" y2="0" width="0" layer="18" curve="-180"/>
-<wire x1="-0.1016" y1="0" x2="0.1016" y2="0" width="0" layer="18" curve="-180"/>
-<wire x1="0.1016" y1="1.3208" x2="-0.1016" y2="1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="-0.1016" y1="1.3208" x2="0.1016" y2="1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="0.1016" y1="2.4384" x2="-0.1016" y2="2.4384" width="0" layer="18" curve="-180"/>
-<wire x1="-0.1016" y1="2.4384" x2="0.1016" y2="2.4384" width="0" layer="18" curve="-180"/>
-<wire x1="1.4986" y1="-1.3208" x2="1.2954" y2="-1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="1.2954" y1="-1.3208" x2="1.4986" y2="-1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="1.4986" y1="0" x2="1.2954" y2="0" width="0" layer="18" curve="-180"/>
-<wire x1="1.2954" y1="0" x2="1.4986" y2="0" width="0" layer="18" curve="-180"/>
-<wire x1="1.4986" y1="1.3208" x2="1.2954" y2="1.3208" width="0" layer="18" curve="-180"/>
-<wire x1="1.2954" y1="1.3208" x2="1.4986" y2="1.3208" width="0" layer="18" curve="-180"/>
 <wire x1="-2.9718" y1="-3.302" x2="-2.9718" y2="3.302" width="0.1524" layer="39"/>
 <wire x1="-2.9718" y1="3.302" x2="-2.7432" y2="3.302" width="0.1524" layer="39"/>
 <wire x1="2.9718" y1="3.302" x2="2.7432" y2="3.302" width="0.1524" layer="39"/>
@@ -10651,7 +10629,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 </classes>
 <parts>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="Connectors"/>
-<part name="J2" library="VESC_SHIT" deviceset="1755529" device=""/>
+<part name="J2" library="VESC_SHIT" library_urn="urn:adsk.eagle:library:11793053" deviceset="1755529" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="CAN"/>
 <part name="U$6" library="PI_Shield_Library" deviceset="TCAN337D" device=""/>
 <part name="C30" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
@@ -10662,11 +10640,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R29" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="60"/>
 <part name="C31" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414@1/1" value="0.1uF"/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="VESC_SHIT" deviceset="STM32F405RGT6" device=""/>
+<part name="U1" library="VESC_SHIT" library_urn="urn:adsk.eagle:library:11793053" deviceset="STM32F405RGT6" device=""/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1k"/>
-<part name="GREEN_LED" library="VESC_SHIT" deviceset="TLMS1100-GS08" device=""/>
-<part name="RED_LED" library="VESC_SHIT" deviceset="TLMS1100-GS08" device=""/>
+<part name="GREEN_LED" library="VESC_SHIT" library_urn="urn:adsk.eagle:library:11793053" deviceset="TLMS1100-GS08" device=""/>
+<part name="RED_LED" library="VESC_SHIT" library_urn="urn:adsk.eagle:library:11793053" deviceset="TLMS1100-GS08" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device="" value="MCU board"/>
 <part name="GND2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="2.2UF" device="-0603-10V-20%" package3d_urn="urn:adsk.eagle:package:37414@2/1" value="2.2uF"/>
@@ -10706,7 +10684,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
 <part name="C5" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U$2" library="VESC_SHIT" deviceset="DRV8320H" device=""/>
+<part name="U$2" library="VESC_SHIT" library_urn="urn:adsk.eagle:library:11793053" deviceset="DRV8320H" device=""/>
 <part name="C13" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47NF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414@2/1" value="47nF"/>
 <part name="C14" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="1.0UF" device="-0603-16V-10%" package3d_urn="urn:adsk.eagle:package:37414@2/1" value="1.0uF"/>
 <part name="C15" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:37414@1/1" value="0.1uF"/>
@@ -10724,9 +10702,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="FRAME8" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="SV1" library="con-lsta" library_urn="urn:adsk.eagle:library:161" deviceset="FE08-1" device="" package3d_urn="urn:adsk.eagle:package:8194/1"/>
 <part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="U2" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
-<part name="U4" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
-<part name="U3" library="VESC_SHIT" deviceset="CSD88584Q5DCT" device=""/>
+<part name="U2" library="VESC_SHIT" library_urn="urn:adsk.eagle:library:11793053" deviceset="CSD88584Q5DCT" device=""/>
+<part name="U4" library="VESC_SHIT" library_urn="urn:adsk.eagle:library:11793053" deviceset="CSD88584Q5DCT" device=""/>
+<part name="U3" library="VESC_SHIT" library_urn="urn:adsk.eagle:library:11793053" deviceset="CSD88584Q5DCT" device=""/>
 </parts>
 <sheets>
 <sheet>
