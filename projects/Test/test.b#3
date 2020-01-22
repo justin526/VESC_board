@@ -3590,6 +3590,65 @@ Please make sure your boards conform to these design rules.
 <via x="11.176" y="14.859" extent="1-16" drill="0.35"/>
 <via x="19.431" y="6.858" extent="1-16" drill="0.35"/>
 <via x="49.784" y="8.763" extent="1-16" drill="0.35"/>
+<polygon width="0.2032" layer="1">
+<vertex x="10.922" y="13.335"/>
+<vertex x="10.795" y="13.462"/>
+<vertex x="9.779" y="13.462"/>
+<vertex x="9.779" y="17.907"/>
+<vertex x="10.033" y="18.161"/>
+<vertex x="10.16" y="18.161"/>
+<vertex x="12.446" y="18.161"/>
+<vertex x="12.827" y="17.78"/>
+<vertex x="12.827" y="13.843"/>
+<vertex x="11.684" y="13.843"/>
+<vertex x="11.176" y="13.335"/>
+</polygon>
+<polygon width="0.2032" layer="1">
+<vertex x="18.161" y="21.59"/>
+<vertex x="18.923" y="21.59"/>
+<vertex x="19.558" y="20.955"/>
+<vertex x="19.558" y="20.701"/>
+<vertex x="19.685" y="20.574"/>
+<vertex x="20.193" y="20.574"/>
+<vertex x="20.193" y="16.764"/>
+<vertex x="20.066" y="16.637"/>
+<vertex x="19.05" y="16.637"/>
+<vertex x="18.796" y="16.383"/>
+<vertex x="18.161" y="16.383"/>
+<vertex x="17.907" y="16.637"/>
+<vertex x="17.907" y="17.272"/>
+<vertex x="18.415" y="17.78"/>
+<vertex x="18.796" y="17.78"/>
+<vertex x="19.177" y="18.161"/>
+<vertex x="19.177" y="18.923"/>
+<vertex x="18.542" y="19.558"/>
+<vertex x="18.415" y="19.558"/>
+<vertex x="17.907" y="19.558"/>
+<vertex x="17.653" y="19.812"/>
+<vertex x="17.399" y="20.066"/>
+<vertex x="17.018" y="20.066"/>
+<vertex x="16.891" y="20.193"/>
+<vertex x="16.891" y="20.574"/>
+<vertex x="17.907" y="21.59"/>
+</polygon>
+<polygon width="0.2032" layer="1">
+<vertex x="19.304" y="2.286"/>
+<vertex x="18.415" y="2.286"/>
+<vertex x="17.907" y="2.794"/>
+<vertex x="17.78" y="2.921"/>
+<vertex x="16.891" y="2.921"/>
+<vertex x="16.637" y="3.175"/>
+<vertex x="16.637" y="6.35"/>
+<vertex x="17.145" y="6.858"/>
+<vertex x="18.161" y="6.858"/>
+<vertex x="18.415" y="6.858"/>
+<vertex x="18.923" y="7.366"/>
+<vertex x="19.812" y="7.366"/>
+<vertex x="20.193" y="6.985"/>
+<vertex x="20.32" y="6.858"/>
+<vertex x="20.32" y="6.604"/>
+<vertex x="20.32" y="3.302"/>
+</polygon>
 <wire x1="52.9726" y1="16.3322" x2="60.9854" y2="18.5674" width="0" layer="19" extent="1-1"/>
 <wire x1="51.1556" y1="16.5744" x2="52.9726" y2="16.3322" width="0" layer="19" extent="1-1"/>
 <wire x1="51.816" y1="12.7" x2="52.9726" y2="16.3322" width="0" layer="19" extent="1-1"/>

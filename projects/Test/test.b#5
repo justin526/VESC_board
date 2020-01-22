@@ -3772,9 +3772,9 @@ Please make sure your boards conform to these design rules.
 <wire x1="14.7574" y1="5.6134" x2="14.1224" y2="4.9784" width="0.762" layer="1"/>
 <wire x1="14.1224" y1="4.9784" x2="14.1224" y2="2.64025625" width="0.762" layer="1"/>
 <wire x1="12.87914375" y1="1.397" x2="11.557" y2="1.397" width="0.762" layer="1"/>
-<wire x1="11.557" y1="1.397" x2="9.144" y2="3.81" width="0.762" layer="1"/>
-<wire x1="9.144" y1="3.81" x2="9.144" y2="19.177" width="0.762" layer="1"/>
-<wire x1="9.144" y1="19.177" x2="11.176" y2="21.209" width="0.762" layer="1"/>
+<wire x1="11.557" y1="1.397" x2="9.017" y2="3.937" width="0.762" layer="1"/>
+<wire x1="9.017" y1="3.937" x2="9.017" y2="19.05" width="0.762" layer="1"/>
+<wire x1="9.017" y1="19.05" x2="11.176" y2="21.209" width="0.762" layer="1"/>
 <wire x1="14.732" y1="20.574" x2="14.732" y2="15.24" width="0.762" layer="1"/>
 <wire x1="14.1224" y1="2.64025625" x2="12.87914375" y2="1.397" width="0.762" layer="1"/>
 <wire x1="11.176" y1="21.209" x2="14.097" y2="21.209" width="0.762" layer="1"/>
@@ -3793,6 +3793,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="26.6639" y1="11.898" x2="26.412" y2="11.898" width="0.2032" layer="1"/>
 <wire x1="15.8437" y1="16.3517" x2="14.732" y2="15.24" width="0.762" layer="1"/>
 <wire x1="15.8437" y1="20.2887" x2="15.8437" y2="16.3517" width="0.762" layer="1"/>
+<wire x1="22.1742" y1="17.8308" x2="28.194" y2="17.106" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN_H">
 <contactref element="U$6" pad="CANH"/>

@@ -3848,8 +3848,8 @@ Please make sure your boards conform to these design rules.
 <contactref element="U4" pad="27"/>
 <contactref element="U3" pad="27"/>
 <polygon width="0.762" layer="1" rank="3">
-<vertex x="-0.762" y="24.13"/>
-<vertex x="-0.762" y="0"/>
+<vertex x="0.127" y="24.13"/>
+<vertex x="0.127" y="0"/>
 <vertex x="17.653" y="0"/>
 <vertex x="17.653" y="5.08"/>
 <vertex x="21.844" y="5.08"/>

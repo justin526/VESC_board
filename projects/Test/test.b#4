@@ -3574,10 +3574,30 @@ Please make sure your boards conform to these design rules.
 <wire x1="17.1074" y1="7.1134" x2="18.1624" y2="7.1134" width="0.2032" layer="1"/>
 <wire x1="18.697" y1="7.648" x2="23.662" y2="7.648" width="0.2032" layer="1"/>
 <wire x1="18.1624" y1="7.1134" x2="18.697" y2="7.648" width="0.2032" layer="1"/>
+<via x="10.414" y="17.399" extent="1-16" drill="0.35"/>
+<via x="10.414" y="15.748" extent="1-16" drill="0.35"/>
+<via x="10.414" y="14.097" extent="1-16" drill="0.35"/>
+<via x="17.653" y="20.574" extent="1-16" drill="0.35"/>
+<via x="18.542" y="21.082" extent="1-16" drill="0.35"/>
+<via x="18.542" y="20.066" extent="1-16" drill="0.35"/>
+<via x="18.415" y="17.018" extent="1-16" drill="0.35"/>
+<via x="19.812" y="12.954" extent="1-16" drill="0.35"/>
+<via x="18.796" y="2.794" extent="1-16" drill="0.35"/>
+<via x="18.796" y="3.81" extent="1-16" drill="0.35"/>
+<via x="18.796" y="4.826" extent="1-16" drill="0.35"/>
+<via x="18.796" y="5.969" extent="1-16" drill="0.35"/>
+<via x="11.176" y="16.51" extent="1-16" drill="0.35"/>
+<via x="11.176" y="14.859" extent="1-16" drill="0.35"/>
+<via x="19.431" y="6.858" extent="1-16" drill="0.35"/>
+<via x="49.784" y="8.763" extent="1-16" drill="0.35"/>
 <wire x1="52.9726" y1="16.3322" x2="60.9854" y2="18.5674" width="0" layer="19" extent="1-1"/>
 <wire x1="51.1556" y1="16.5744" x2="52.9726" y2="16.3322" width="0" layer="19" extent="1-1"/>
 <wire x1="51.816" y1="12.7" x2="52.9726" y2="16.3322" width="0" layer="19" extent="1-1"/>
 <wire x1="54.356" y1="10.834" x2="51.816" y2="12.7" width="0" layer="19" extent="1-16"/>
+<wire x1="49.784" y1="8.763" x2="51.816" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="50.292" y1="5.93" x2="49.784" y2="8.763" width="0" layer="19" extent="1-1"/>
+<wire x1="48.26" y1="5.93" x2="50.292" y2="5.93" width="0" layer="19" extent="1-1"/>
+<wire x1="46.482" y1="5.969" x2="48.26" y2="5.93" width="0" layer="19" extent="1-1"/>
 <wire x1="46.482" y1="16.256" x2="51.1556" y2="16.5744" width="0" layer="19" extent="1-1"/>
 <wire x1="46.0121" y1="14.172" x2="46.482" y2="16.256" width="0" layer="19" extent="1-1"/>
 <wire x1="46.0121" y1="12.672" x2="46.0121" y2="14.172" width="0" layer="19" extent="1-1"/>
@@ -3604,13 +3624,25 @@ Please make sure your boards conform to these design rules.
 <wire x1="29.591" y1="5.3312" x2="34.417" y2="6.223" width="0" layer="19" extent="1-1"/>
 <wire x1="24.412" y1="11.898" x2="26.162" y2="9.398" width="0" layer="19" extent="1-1"/>
 <wire x1="23.662" y1="11.148" x2="24.412" y2="11.898" width="0" layer="19" extent="1-1"/>
+<wire x1="11.176" y1="16.51" x2="12.382" y2="16.74" width="0" layer="19" extent="1-1"/>
+<wire x1="10.414" y1="15.748" x2="11.176" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="10.414" y1="17.399" x2="11.176" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="11.176" y1="14.859" x2="10.414" y2="15.748" width="0" layer="19" extent="1-1"/>
+<wire x1="10.414" y1="14.097" x2="11.176" y2="14.859" width="0" layer="19" extent="1-1"/>
+<wire x1="18.542" y1="20.066" x2="19.8242" y2="19.8308" width="0" layer="19" extent="1-1"/>
+<wire x1="18.542" y1="21.082" x2="18.542" y2="20.066" width="0" layer="19" extent="1-1"/>
+<wire x1="17.653" y1="20.574" x2="18.542" y2="20.066" width="0" layer="19" extent="1-1"/>
+<wire x1="18.415" y1="17.018" x2="19.8242" y2="16.8308" width="0" layer="19" extent="1-1"/>
 <wire x1="23.662" y1="7.648" x2="26.162" y2="9.398" width="0" layer="19" extent="1-1"/>
-<wire x1="20.486" y1="5.334" x2="17.1074" y2="5.6134" width="0" layer="19" extent="1-16"/>
-<wire x1="20.5114" y1="3.2004" x2="20.486" y2="5.334" width="0" layer="19" extent="16-16"/>
+<wire x1="18.796" y1="5.969" x2="17.1074" y2="6.1134" width="0" layer="19" extent="1-1"/>
+<wire x1="19.431" y1="6.858" x2="18.796" y2="5.969" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="4.826" x2="18.796" y2="5.969" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="3.81" x2="18.796" y2="4.826" width="0" layer="19" extent="1-1"/>
+<wire x1="18.796" y1="2.794" x2="18.796" y2="3.81" width="0" layer="19" extent="1-1"/>
+<wire x1="20.486" y1="5.334" x2="18.796" y2="4.826" width="0" layer="19" extent="16-16"/>
+<wire x1="20.5114" y1="3.2004" x2="18.796" y2="2.794" width="0" layer="19" extent="16-16"/>
+<wire x1="19.812" y1="12.954" x2="22.606" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="25.6912" y1="3.2766" x2="27.412" y2="6.898" width="0" layer="19" extent="1-16"/>
-<wire x1="46.482" y1="5.969" x2="44.196" y2="10.7578" width="0" layer="19" extent="16-16"/>
-<wire x1="48.26" y1="5.93" x2="46.482" y2="5.969" width="0" layer="19" extent="1-1"/>
-<wire x1="50.292" y1="5.93" x2="48.26" y2="5.93" width="0" layer="19" extent="1-1"/>
 <wire x1="56.769" y1="5.676" x2="54.356" y2="10.834" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="NRST">

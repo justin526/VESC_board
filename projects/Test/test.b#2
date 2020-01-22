@@ -3851,8 +3851,8 @@ Please make sure your boards conform to these design rules.
 <vertex x="-0.762" y="24.13"/>
 <vertex x="-0.762" y="0"/>
 <vertex x="17.653" y="0"/>
-<vertex x="17.653" y="11.811"/>
-<vertex x="28.575" y="11.811"/>
+<vertex x="17.653" y="5.08"/>
+<vertex x="21.844" y="5.08"/>
 <vertex x="28.702" y="11.938"/>
 <vertex x="28.702" y="24.13"/>
 </polygon>
