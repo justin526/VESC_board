@@ -3723,9 +3723,8 @@ Please make sure your boards conform to these design rules.
 <contactref element="U17" pad="11"/>
 <wire x1="119.602" y1="25.844" x2="116.3132" y2="25.844" width="0.762" layer="1"/>
 <wire x1="119.8149" y1="25.844" x2="119.602" y2="25.844" width="0.762" layer="1"/>
-<wire x1="121.038590625" y1="24.161409375" x2="119.864" y2="25.336" width="0.762" layer="1"/>
-<wire x1="119.864" y1="25.336" x2="119.61" y2="25.336" width="0.762" layer="1"/>
-<wire x1="119.102" y1="25.844" x2="119.61" y2="25.336" width="0.762" layer="1"/>
+<wire x1="119.102" y1="25.844" x2="119.356" y2="25.844" width="0.762" layer="1"/>
+<wire x1="121.038590625" y1="24.161409375" x2="119.356" y2="25.844" width="0.762" layer="1"/>
 <wire x1="121.038590625" y1="24.161409375" x2="124.180465625" y2="22.86" width="0.762" layer="1"/>
 <wire x1="124.180465625" y1="22.86" x2="131.318" y2="22.86" width="0.762" layer="1"/>
 <wire x1="131.318" y1="22.86" x2="134.366" y2="25.908" width="0.762" layer="1"/>
@@ -5775,7 +5774,7 @@ Please make sure your boards conform to these design rules.
 <via x="122.682" y="6.35" extent="1-16" drill="0.85"/>
 <via x="112.522" y="12.446" extent="1-16" drill="0.85"/>
 <via x="122.428" y="12.446" extent="1-16" drill="0.85"/>
-<via x="112.522" y="25.4" extent="1-16" drill="0.85"/>
+<via x="112.522" y="25.654" extent="1-16" drill="0.85"/>
 <via x="122.428" y="25.4" extent="1-16" drill="0.85"/>
 <via x="122.174" y="31.75" extent="1-16" drill="0.85"/>
 <via x="112.268" y="31.242" extent="1-16" drill="0.85"/>
@@ -5933,13 +5932,13 @@ Please make sure your boards conform to these design rules.
 <vertex x="121.158" y="25.146"/>
 <vertex x="121.158" y="25.908"/>
 <vertex x="120.65" y="26.416"/>
-<vertex x="113.792" y="26.416"/>
-<vertex x="113.538" y="26.162"/>
-<vertex x="113.538" y="24.892"/>
+<vertex x="114.046" y="26.416"/>
+<vertex x="113.792" y="26.162"/>
+<vertex x="113.792" y="25.146"/>
 <vertex x="113.03" y="24.384"/>
-<vertex x="111.506" y="24.384"/>
-<vertex x="110.998" y="24.892"/>
-<vertex x="110.998" y="26.162"/>
+<vertex x="111.76" y="24.384"/>
+<vertex x="111.252" y="24.892"/>
+<vertex x="111.252" y="25.908"/>
 <vertex x="110.744" y="26.416"/>
 <vertex x="104.648" y="26.416"/>
 <vertex x="104.14" y="26.924"/>
@@ -6002,9 +6001,9 @@ Please make sure your boards conform to these design rules.
 </polygon>
 <wire x1="122.428" y1="25.4" x2="127.254" y2="28.194" width="0" layer="19" extent="1-1"/>
 <wire x1="117.602" y1="28.194" x2="122.428" y2="25.4" width="0" layer="19" extent="1-1"/>
-<wire x1="122.174" y1="31.75" x2="117.602" y2="28.194" width="0" layer="19" extent="1-1"/>
-<wire x1="112.522" y1="25.4" x2="117.602" y2="28.194" width="0" layer="19" extent="1-1"/>
-<wire x1="107.442" y1="28.194" x2="112.522" y2="25.4" width="0" layer="19" extent="1-1"/>
+<wire x1="112.522" y1="25.654" x2="117.602" y2="28.194" width="0" layer="19" extent="1-1"/>
+<wire x1="112.268" y1="31.242" x2="112.522" y2="25.654" width="0" layer="19" extent="1-1"/>
+<wire x1="107.442" y1="28.194" x2="112.522" y2="25.654" width="0" layer="19" extent="1-1"/>
 <wire x1="96.532" y1="25.948" x2="97.032" y2="25.948" width="0" layer="19" extent="1-1"/>
 <wire x1="87.63" y1="11.684" x2="87.63" y2="14.224" width="0" layer="19" extent="1-1"/>
 <wire x1="85.09" y1="14.224" x2="87.63" y2="14.224" width="0" layer="19" extent="1-1"/>
@@ -6016,7 +6015,7 @@ Please make sure your boards conform to these design rules.
 <wire x1="87.63" y1="4.064" x2="87.63" y2="6.604" width="0" layer="19" extent="1-1"/>
 <wire x1="97.032" y1="6.898" x2="96.532" y2="6.898" width="0" layer="19" extent="1-1"/>
 <wire x1="85.09" y1="4.064" x2="85.09" y2="6.604" width="0" layer="19" extent="1-1"/>
-<wire x1="112.268" y1="31.242" x2="107.442" y2="28.194" width="0" layer="19" extent="1-1"/>
+<wire x1="122.174" y1="31.75" x2="117.602" y2="28.194" width="0" layer="19" extent="1-1"/>
 <wire x1="112.522" y1="6.35" x2="107.442" y2="9.144" width="0" layer="19" extent="1-1"/>
 <wire x1="117.602" y1="9.144" x2="112.522" y2="6.35" width="0" layer="19" extent="1-1"/>
 <wire x1="122.682" y1="6.35" x2="117.602" y2="9.144" width="0" layer="19" extent="1-1"/>

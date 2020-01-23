@@ -5827,7 +5827,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="83.312" y="2.032"/>
 <vertex x="83.82" y="1.524"/>
 </polygon>
-<polygon width="0.1524" layer="1">
+<polygon width="0.8128" layer="1">
 <vertex x="18.542" y="24.13"/>
 <vertex x="17.78" y="24.13"/>
 <vertex x="17.018" y="24.892"/>
@@ -5871,7 +5871,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="19.304" y="26.67"/>
 <vertex x="19.304" y="24.892"/>
 </polygon>
-<polygon width="0.1524" layer="1">
+<polygon width="0.8128" layer="1">
 <vertex x="18.796" y="5.842"/>
 <vertex x="18.034" y="5.842"/>
 <vertex x="17.272" y="6.604"/>
@@ -5914,7 +5914,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="19.558" y="8.382"/>
 <vertex x="19.558" y="6.604"/>
 </polygon>
-<polygon width="0.1524" layer="1">
+<polygon width="0.8128" layer="1">
 <vertex x="121.92" y="33.02"/>
 <vertex x="122.682" y="33.02"/>
 <vertex x="123.444" y="32.258"/>
@@ -5957,7 +5957,7 @@ Please make sure your boards conform to these design rules.
 <vertex x="121.158" y="30.48"/>
 <vertex x="121.158" y="32.258"/>
 </polygon>
-<polygon width="0.1524" layer="1">
+<polygon width="0.8128" layer="1">
 <vertex x="121.92" y="13.462"/>
 <vertex x="122.936" y="13.462"/>
 <vertex x="123.698" y="12.7"/>

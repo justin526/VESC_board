@@ -5884,9 +5884,8 @@ Please make sure your boards conform to these design rules.
 <vertex x="10.16" y="11.684"/>
 <vertex x="10.922" y="12.446"/>
 <vertex x="17.018" y="12.446"/>
-<vertex x="17.526" y="12.954"/>
-<vertex x="17.526" y="14.224"/>
-<vertex x="18.034" y="14.732"/>
+<vertex x="17.018" y="13.97"/>
+<vertex x="17.78" y="14.732"/>
 <vertex x="18.542" y="14.732"/>
 <vertex x="19.558" y="13.716"/>
 <vertex x="19.558" y="12.954"/>
